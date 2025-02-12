@@ -79,10 +79,10 @@
 @keyframes coloranimation {
   0% {
     color: rgb(227, 227, 234);
-    top: 0%;
+    top: 10%;
   }
   100% {
-    top: 20%;
+    top: 60%;
     color: rgb(191, 202, 219);
   }
 }

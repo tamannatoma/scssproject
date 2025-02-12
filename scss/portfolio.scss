@@ -16,6 +16,7 @@
     font-weight: 500;
     font-size: 18px;
     font-style: normal;
+    color: #fff;
    
 }
 
@@ -94,7 +95,6 @@
   
     padding-top: 100px;
     position: relative;
-    color: rgb(227, 227, 234);
     animation: coloranimation 2s ease-in 2s infinite normal;
 
    @include head-style;
@@ -103,13 +103,13 @@
     0%{
       
         color: rgb(227, 227, 234);
-        top: 0%;
+        top: 10%;
       
       
     }
     
     100%{
-        top: 20%;
+        top: 60%;
         color: rgb(191, 202, 219);
     }
 }
@@ -167,12 +167,11 @@
     height: 100px;
     width: 600px;
     text-align: center;
-     padding-top: 20px;
-     padding-right: 40%;
+    padding-top: 20px;
+    padding-right: 40%;
     text-align: center;
     text-transform: uppercase;
-    color:  rgb(227, 227, 234);
-
+   
     @include head-style;
  }
 .about-box2 p{
@@ -181,7 +180,7 @@
      text-align: left;
      padding-top: 0;
      text-transform: capitalize;
-     color:  rgb(227, 227, 234);
+    
 
      @include para-style;
 
