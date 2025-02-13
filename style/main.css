@@ -67,7 +67,6 @@
 .heading {
   padding-top: 100px;
   position: relative;
-  color: rgb(227, 227, 234);
   animation: coloranimation 2s ease-in 2s infinite normal;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -138,7 +137,6 @@
   padding-right: 40%;
   text-align: center;
   text-transform: uppercase;
-  color: rgb(227, 227, 234);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -152,11 +150,11 @@
   text-align: left;
   padding-top: 0;
   text-transform: capitalize;
-  color: rgb(227, 227, 234);
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
+  color: #fff;
 }
 
 .service {
@@ -222,6 +220,7 @@
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
+  color: #fff;
 }
 
 .projects {
@@ -273,6 +272,7 @@
   font-weight: 500;
   font-size: 18px;
   font-style: normal;
+  color: #fff;
 }
 
 .project-section a img {
